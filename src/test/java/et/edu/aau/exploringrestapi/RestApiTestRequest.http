@@ -1,0 +1,9 @@
+
+###
+GET {{hostUrl}}/hello
+
+###
+GET {{hostUrl}}/ciao
+
+###
+GET {{hostUrl}}/api/countries/Ethiopia
