@@ -1,4 +1,4 @@
-package et.edu.aau.exploringrestapi;
+package et.edu.aau.exploringrestapi.Models;
 
 public class Country {
 

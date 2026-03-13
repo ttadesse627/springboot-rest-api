@@ -5,5 +5,49 @@ GET {{hostUrl}}/hello
 ###
 GET {{hostUrl}}/ciao
 
+
+### Countries RequestCountries
 ###
-GET {{hostUrl}}/api/countries/Ethiopia
+GET {{hostUrl}}/api/countries/ethiopia
+
+###
+GET {{hostUrl}}/api/countries/france
+
+###
+GET {{hostUrl}}/api/countries
+
+### Book Requests
+
+###
+GET {{hostUrl}}/api/books
+
+###
+GET {{hostUrl}}/api/books/2
+
+###
+POST {{hostUrl}}/api/books
+Content-Type: application/json
+
+{
+  "title": "Title 5",
+  "author": "Author 5"
+}
+
+###
+PUT {{hostUrl}}/api/books/2
+Content-Type: application/json
+
+{
+  "title": "Spring Boot REST API",
+  "author": "Chala"
+}
+
+###
+DELETE {{hostUrl}}/api/books/3
+
+###
+GET {{hostUrl}}/api/books/generate-report
+
+
+###
+GET {{hostUrl}}/api/books/search?title=abebe
