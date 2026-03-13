@@ -48,6 +48,13 @@ DELETE {{hostUrl}}/api/books/3
 ###
 GET {{hostUrl}}/api/books/generate-report
 
-
 ###
 GET {{hostUrl}}/api/books/search?title=abebe
+
+###
+POST {{hostUrl}}/api/payments
+
+### External Client service call (Consuming REST API)
+
+###
+GET {{hostUrl}}/posts/1
