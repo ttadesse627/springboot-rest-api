@@ -6,6 +6,6 @@ import java.math.BigDecimal;
 
 @Value
 public class Money {
-    private BigDecimal amount;
-    private String currency;
+    BigDecimal amount;
+    String currency;
 }
